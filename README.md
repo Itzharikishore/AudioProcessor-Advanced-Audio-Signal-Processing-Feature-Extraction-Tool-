@@ -120,15 +120,3 @@ python
 # For music, you might want to adjust the frequency range
 # Modify the bandpass filter parameters in the code
 music_result = preprocess_audio("music_sample.wav", "processed_music.wav")
-Troubleshooting
-Common Issues
-Import Errors: Ensure all dependencies are installed
-File Not Found: Check audio file path and format support
-Memory Issues: Large files may require chunked processing
-Visualization Issues: Use Jupyter Notebook for best display results
-Supported Audio Formats
-WAV (recommended)
-MP3
-FLAC
-OGG
-And other formats supported by librosa
